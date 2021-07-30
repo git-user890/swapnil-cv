@@ -116,7 +116,7 @@ body {
 }
 .skills ul li .percent {
   background-color: #00aeff;
-  height: 6px;
+  height: 5px;
   width: 50%;
 }
 .skills ul li .percent .html {
@@ -163,7 +163,7 @@ body {
 }
 .frameworks ul li .percent {
   background-color: #00aeff;
-  height: 6px;
+  height: 5px;
   width: 50%;
 }
 .frameworks ul li .percent .bootstrap {
@@ -195,7 +195,7 @@ body {
 }
 .softwares ul li .percent {
   background-color: #00aeff;
-  height: 6px;
+  height: 5px;
   width: 50%;
 }
 .softwares ul li .percent .vscode {
@@ -277,12 +277,12 @@ body {
 }
 .languages ul li .percent .marathi {
   height: 5px;
-  width: 60%;
+  width: 100%;
   background-color: whitesmoke;
 }
 .languages ul li .percent .hindi {
   height: 5px;
-  width: 60%;
+  width: 80%;
   background-color: whitesmoke;
 }
 .languages ul li h3 {
