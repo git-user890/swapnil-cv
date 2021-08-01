@@ -16,7 +16,7 @@ body {
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
-  margin: 50px;
+  margin: 0px;
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -25,31 +25,31 @@ body {
 .container .left_side {
   position: relative;
   background-color: #003147;
-  padding: 30px;
+  padding: 20px;
 }
 .profiletext {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .profiletext .image {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: 5px solid #00aeff;
+  border: 3px solid #00aeff;
   background-color: whitesmoke;
 
   overflow: hidden;
 }
 .profiletext .image h1 {
-  font-size: 100px;
+  font-size: 40px;
   color: #00aeff;
 }
 .profiletext .image img {
@@ -62,12 +62,12 @@ body {
 }
 .profiletext h2 {
   color: #fff;
-  font-size: 1.6em;
-  margin-top: 20px;
+  font-size: 1.2em;
+  margin-top: 15px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
-  line-height: 1.4em;
+  line-height: 1.2em;
 }
 .profiletext h2 span {
   font-size: 0.7em;
@@ -78,7 +78,7 @@ body {
 .frameworks,
 .softwares,
 .coding_platforms {
-  padding-top: 30px;
+  padding-top: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .title {
@@ -86,7 +86,8 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 .contactInfo ul {
   position: relative;
@@ -94,20 +95,20 @@ body {
 .contactInfo ul li {
   position: relative;
   list-style: none;
-  max-width: 10px 0;
-  margin-bottom: 10px;
+  max-width: 7px 0;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 .contactInfo ul li .icon {
   display: inline-block;
-  width: 25px;
-  font-size: 18px;
+  width: 20px;
+  font-size: 15px;
   color: #03a9f4;
 }
 .contactInfo ul li span {
   color: #fff;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 12px;
 }
 .skills ul li {
   display: flex;
@@ -148,13 +149,13 @@ body {
   width: 35%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .skills ul li h3 {
   width: 10%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .frameworks ul li {
   display: flex;
@@ -180,13 +181,13 @@ body {
   width: 35%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .frameworks ul li h3 {
   width: 10%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .softwares ul li {
   display: flex;
@@ -212,13 +213,13 @@ body {
   width: 35%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .softwares ul li h3 {
   width: 10%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .social ul li {
   display: flex;
@@ -227,12 +228,12 @@ body {
 .social ul li h4 {
   color: #fff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 .social ul li h3 {
   color: #00aeff;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
 }
 .coding_platforms ul li {
   display: flex;
@@ -241,12 +242,12 @@ body {
 .coding_platforms ul li h4 {
   color: #fff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
 }
 .coding_platforms ul li h3 {
   color: #00aeff;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
 }
 .languages ul li {
   display: flex;
@@ -256,13 +257,13 @@ body {
 .languages ul li h4 {
   color: #fff;
   font-weight: 400;
-  font-size: 16px;
-  width: 35%;
+  font-size: 12px;
+  width: 100%;
 }
 .languages ul li h3 {
   color: #00aeff;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 12px;
   width: 10%;
 }
 .languages ul li .percent {
@@ -289,7 +290,7 @@ body {
   width: 10%;
   color: #fff;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 /*------------------------------------------------------  */
 .container .right_side {
@@ -297,8 +298,19 @@ body {
   background-color: #fff;
   padding: 40px;
 }
+.right_side .title2 {
+  font-size: 20px;
+}
+.container .right_side p,
+.container .right_side h5,
+.container .right_side h4 {
+  font-size: 15px;
+}
+.right_side .interest p {
+  line-height: 1;
+}
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 .about:last-child {
   margin-bottom: 0;
@@ -307,7 +319,7 @@ body {
   color: #003147;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 p {
   color: #333;
@@ -315,7 +327,7 @@ p {
 .about .box {
   display: flex;
   flex-direction: row;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .about .box .year {
   min-width: 150px;
@@ -338,9 +350,9 @@ p {
   align-items: center;
 }
 .hobbies i {
-  height: 140px;
-  width: 140px;
-  font-size: 40px;
+  height: 70px;
+  width: 70px;
+  font-size: 20px;
   margin: 20px;
   background-color: #d4ebf5;
   list-style: none;
